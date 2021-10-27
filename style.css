@@ -88,8 +88,8 @@ h2{
 
 @media screen and (max-width:500px) {
     .gamegrid{
-        grid-template-columns: repeat(3,70px);
-        grid-template-rows: repeat(3,70px);
+        grid-template-columns: repeat(3,80px);
+        grid-template-rows: repeat(3,80px);
     }
     .box{
         border: 1px solid rgb(184, 184, 184);
