@@ -49,7 +49,7 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 
 h1{
     font-size: 3rem;
-    padding: 40px;
+    padding: 40px 0;
 }
 
 h2{
@@ -88,13 +88,16 @@ h2{
 
 @media screen and (max-width:500px) {
     .gamegrid{
-        grid-template-columns: repeat(3,60px);
-        grid-template-rows: repeat(3,60px);
+        grid-template-columns: repeat(3,70px);
+        grid-template-rows: repeat(3,70px);
+    }
+    .box{
+        border: 1px solid rgb(184, 184, 184);
     }
     h1{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     .gameover,h2{
-        font-size: larger;
+        font-size: x-large;
     }
 }
